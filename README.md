@@ -23,39 +23,6 @@
 
 
 
-
-
-## 项目结构
-
-| 目录    | 说明                                                 |
-| ------- | ---------------------------------------------------- |
-| e-Book  | 原版英文书籍，建议英语基础较好的读者直接阅读         |
-| cn-Book | 翻译后的中文版，按照章节组织，与原版英文书籍一一对应 |
-| Image   | 原版英文书籍中的所有图片，也全部经过翻译             |
-
-### 全书章节
-
-**在线阅读**：[Build a Large Language Model (From Scratch)  中文版](https://skindhu.github.io/Build-A-Large-Language-Model-CN/)
-
-+ [第一章：理解大语言模型](https://skindhu.github.io/Build-A-Large-Language-Model-CN/#/./cn-Book/1.理解大语言模型.md)
-+ [第二章：处理文本数据](https://skindhu.github.io/Build-A-Large-Language-Model-CN/#/./cn-Book/2.处理文本数据.md)
-+ [第三章：实现注意力机制](https://skindhu.github.io/Build-A-Large-Language-Model-CN/#/./cn-Book/3.实现注意力机制.md)
-+ [第四章：从零开始实现一个用于文本生成的 GPT 模型](https://skindhu.github.io/Build-A-Large-Language-Model-CN/#/./cn-Book/4.从零开始实现一个用于文本生成的%20GPT%20模型.md)
-+ [第五章：在无标记数据集上进行预训练](https://skindhu.github.io/Build-A-Large-Language-Model-CN/#/./cn-Book/5.在无标记数据集上进行预训练.md)
-+ [第六章：用于分类任务的微调](https://skindhu.github.io/Build-A-Large-Language-Model-CN/#/./cn-Book/6.用于分类任务的微调.md)
-+ [第七章：指令遵循微调](https://skindhu.github.io/Build-A-Large-Language-Model-CN/#/./cn-Book/7.指令遵循微调.md)
-+ [附录A：PyTorch简介](https://skindhu.github.io/Build-A-Large-Language-Model-CN/#/./cn-Book/附录A.PyTorch简介.md)
-+ [附录B：参考文献和扩展阅读](https://skindhu.github.io/Build-A-Large-Language-Model-CN/#/./cn-Book/附录B.参考文献和扩展阅读.md)
-+ [附录C：习题解答](https://skindhu.github.io/Build-A-Large-Language-Model-CN/#/./cn-Book/附录C.习题解答.md)
-+ [附录D：给训练循环添加高级技巧](https://skindhu.github.io/Build-A-Large-Language-Model-CN/#/./cn-Book/附录D.给训练循环添加高级技巧.md)
-+ [附录E：使用 LoRA 的参数高效微调](https://skindhu.github.io/Build-A-Large-Language-Model-CN/#/./cn-Book/附录E.使用LoRA的参数高效微调.md)
-
-
-### 新书推荐
-
-+ [《Google DeepMind - How to Scale Your Model》电子书中文翻译项目](https://github.com/skindhu/How-To-Scale-Your-Model-CN)
-
-
 ## 个人思考
 
 巴克莱在最近发布的研报中提出了一份“AI路线图”，描绘了未来AI技术应用的演进路径，我个人比较认同。报告指出，AI的应用将经历三个重要阶段，首先是当下的**第一阶段**：聊天机器人和早期的AI助理（Copilot），因为目前主要是侧重于基础设置的建设和模型能力的竞赛。接下来在2025-2026年将迎来“真AI代理时代”的人**第二阶段**，这一阶段的核心在于能够自主完成任务的AI代理的广泛应用。与聊天机器人和Copilot不同，AI代理能完成相对复杂的任务，尽量减少人类的直接干预。而在2027年以后，AI技术将进一步进入“数字员工与机器人时代”**第三阶段**”（应该是所谓的具身智能），在企业应用中，AI代理可能演变成独立完成任务的“数字员工”，在消费者市场，智能机器人将开始逐步融入家庭生活，承担简单和重复性的日常任务。
@@ -80,56 +47,6 @@
 
   + 接受未来可能带来的变化，积极寻找学习和发展的机会。
 
-
-## 若希望了解更多AI探索相关的内容，可关注作者公众号
-<img src="https://wechat-account-1251781786.cos.ap-guangzhou.myqcloud.com/wechat_account.jpeg" width="30%">
-
-## 最新文章
-[最近爆火的Nano-Banana模型，你会玩了么？](https://mp.weixin.qq.com/s/qTnDKI-F5Teu0pQJoBJLeA)<br />
-[我是如何快速翻译Google DeepMind出品的《How to Scale Your Model》电子书](https://mp.weixin.qq.com/s/-mURsM3VXmOUXmbxEkCfxA) <br />
-[从源码看Google LangExtract如何应对长文本数据挖掘的挑战](https://mp.weixin.qq.com/s/2GfgVfi_y47ioBsKLbMPrA)<br />
-[GPT 5祛魅时刻：当OpenAI陷入内卷，谷歌已在布局下一个十年](https://mp.weixin.qq.com/s/7WNZmwdzHCiMhWPUGSv4pA)<br />
-[大模型上下文工程之Prefill Response（预填响应）技巧](https://mp.weixin.qq.com/s/fMeg0wcCd4XZPSN5EouLcg)<br />
-[大模型上下文工程之Prefix Caching技术详解](https://mp.weixin.qq.com/s/TA7DY1cynVNPYW-sVI2zHw)<br />
-[产品级AI应用的核心：上下文工程](https://mp.weixin.qq.com/s/93rEhMY7rIUlHIiPPDvEag) <br />
-[如何让Cursor精通鸿蒙开发？](https://mp.weixin.qq.com/s/gLgP7gGU0pmGc2x1hS-0UQ)<br />
-[深度解读斯坦福AI就业报告：未来哪些工作是“绿灯”，哪些是“红灯”？](https://mp.weixin.qq.com/s/8RUntvEMcbYCTbD56-rQKg)<br />
-[搭建一个AI研究团队：我对Claude多智能体深度研究系统的思考与实践](https://mp.weixin.qq.com/s/bOraqJUecR9vO9E23GxodA)<br />
-[谁说AI只会模仿，从Google AlphaEvolve项目看算法的自主创新](https://mp.weixin.qq.com/s/2Gjpw6xbPh3KOLFoozrvlw)<br />
-[AI浪潮下的代码与人:程序员的挑战与机遇](https://mp.weixin.qq.com/s/-vQ6ZtIzlfIKbt2dDkRxLw)<br />
-[构建高效Prompt的艺术：从Claude 4系统提示词中汲取的设计智慧](https://mp.weixin.qq.com/s/WGZJl8VzbnZz56hJNtP-sw)
-
-
-## 中文版电子书阅读过程中可能遇到的问题
-
-在阅读过程中，可能会出现图片无法加载的问题，这一般是由于 Github 的文件服务器的 DNS 被污染导致。遇到该问题时，我们可以先查询出 Github 文件服务器（域名是`raw.githubusercontent.com`）的真实 IP，这可以在 Terminal 中执行如下命令获取：
-
-```bash
-nslookup raw.githubusercontent.com 114.114.114.114
-```
-
-比如我执行后的输出结果如下:
-
-```
-Server:		114.114.114.114
-Address:	114.114.114.114#53
-
-Non-authoritative answer:
-Name:	raw.githubusercontent.com
-Address: 185.199.111.133
-Name:	raw.githubusercontent.com
-Address: 185.199.110.133
-Name:	raw.githubusercontent.com
-Address: 185.199.109.133
-```
-
-接着可以修改`/etc/hosts`文件，将域名重定向到正确的 ip 地址上（`sudo vim /etc/hosts`）:
-
-```bas
-# 读者可以根据自己的输出填入正确的IP地址，当然可以先 ping 一下这些IP，选择通畅且速度最快的
-185.199.108.133 raw.githubusercontent.com
-185.199.108.133 githubusercontent.com
-```
 
 
 
